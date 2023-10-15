@@ -24,7 +24,7 @@ Console.WriteLine($"M = {m}; N = {n} -> {SumRecursive(m, n)}");
 /// <param name="m">начало диапазона</param>
 /// <param name="n">конец диапазона</param>
 /// <returns></returns>
-static int SumRecursive(int m, int n) // 4 и 8
+int SumRecursive(int m, int n) // 4 и 8
 {
     if (n == m) return m; //
     return m + SumRecursive(m + 1, n); // 
